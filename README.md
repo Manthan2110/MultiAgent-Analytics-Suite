@@ -1,2 +1,288 @@
-# MultiAgent-Analytics-Suite
-End-to-end AI Multi-Agent Data Analyst: automatic EDA, interactive Plotly visualizations, clustering, ML feature importance, data cleaning suggestions, and LLM-enhanced insights. Upload any dataset and receive a complete analytical report instantly.
+# 🚀 InsightForge AI – Multi-Agent Automated Data Analyst
+
+_“Transform any dataset into insights — instantly.”_ 📊🤖
+
+**InsightForge AI** is an advanced **AI-powered multi-agent data analyst** that automatically performs **EDA, clustering, ML insights, data cleaning analysis, visualizations, and report generation** using intelligent agents.
+
+Powered by **LLMs (Gemini / OpenAI)**, **Plotly**, **Pandas**, and **Streamlit**, it converts messy datasets into **beautiful dashboards, summaries, and ready-to-share analytical reports** — all with just one upload.
+
+* * *
+
+## 🧠 Problem Statement
+
+Exploratory Data Analysis (EDA) is time-consuming.  
+Most users (even analysts) struggle with:
+
+> ❓ _“How do I understand this dataset quickly?”_  
+> ❓ _“What patterns, outliers, or trends matter?”_  
+> ❓ _“Which features are important for prediction?”_  
+> ❓ _“How do I generate visualizations without coding?”_
+
+**InsightForge AI solves this.**  
+Upload a CSV → instantly receive:
+
+✔ Interactive Plotly charts  
+✔ LLM-powered insights  
+✔ Clustering analysis  
+✔ Feature importance  
+✔ Data cleaning recommendations  
+✔ A structured analytics report  
+✔ Chat-based Q&A with your dataset
+
+* * *
+
+## 🌐 Interface Preview
+
+### 📊 Dashboard – Automated EDA (Streamlit)
+
+> Interactive distribution plots, boxplots, correlation maps, and time-series.
+
+### 🤖 AI Insights
+
+> LLM-written insights for numeric features, categories, trends, and patterns.
+
+### 🌀 Clustering Visualization
+
+> PCA-based cluster scatter, cluster centroids, and AI interpretations.
+
+### 💬 Chat with Dataset
+
+> Query your dataset using natural language.
+
+_(Add screenshots once deployed)_
+
+* * *
+
+## 🏗️ System Architecture
+
+              ┌──────────────────────────────────────────┐
+              │             User Uploads CSV             │
+              └──────────────────────────────────────────┘
+                                  │
+                                  ▼
+     ┌─────────────── Multi-Agent Processing Pipeline ────────────────┐
+     │                                                                │
+     │  DataLoader → EDAAgent → VisualizationAgent (Plotly)           │
+     │      → InsightsAgent → LLMInsightsAgent → MLAgent              │
+     │      → ClusteringAgent → CleaningAgent → ReportGenerator       │
+     │                                                                │
+     └────────────────────────────────────────────────────────────────┘
+                                  │
+                                  ▼
+            ┌────────────────────────────────────────────────┐
+            │ Interactive Dashboard • Insights • Visuals • PDF │
+            └────────────────────────────────────────────────┘
+    
+
+* * *
+
+## 🚀 Key Features
+
+### 🧩 1\. Multi-Agent Architecture
+
+Each task is handled by a specialized agent:
+
+*   Data Loader Agent
+*   EDA Agent
+*   Visualization Agent (Plotly)
+*   Rule-Based Insights Agent
+*   LLM Insights Agent
+*   ML Feature Importance Agent
+*   Clustering Agent (KMeans + PCA)
+*   Data Cleaning Agent
+*   Report Agent
+    
+
+* * *
+
+### 📊 2\. Automated EDA
+
+*   Dataset shape, memory usage, and duplicates
+*   Automatically detects numeric, categorical, boolean, datetime fields
+*   Missing values + heatmap
+*   Skewness, kurtosis, outliers, distributions
+*   Category frequency analysis
+  
+* * *
+
+### 📈 3\. Interactive Plotly Visualizations
+
+*   Histograms  
+*   Boxplots
+*   Violin plots
+*   Category frequency bars
+*   Category vs numeric analysis
+*   Correlation heatmap
+*   Pairplot (scatter matrix)
+*   Time-series trends
+*   Cluster plots (PCA 2D)
+    
+* * *
+
+### 🤖 4\. LLM-Powered Insights
+
+Using OpenAI/Gemini:
+
+*   Numeric feature insights
+*   Categorical feature insights
+*   Trend detection
+*   Correlation explanations
+*   Cluster interpretation
+*   Data quality recommendations
+    
+
+* * *
+
+### 🧮 5\. Machine Learning Feature Importance
+
+*   Auto model selection (RandomForest)
+*   Feature impact scoring
+*   Plotly interactive importance chart
+*   AI-written insights
+
+* * *
+
+### 🌀 6\. Clustering Analysis (KMeans)
+
+*   Automatic K detection
+*   PCA-based cluster scatter
+*   Cluster summary table
+*   LLM-driven interpretation
+
+* * *
+
+### 🧾 7\. Automated Report Generation
+
+*   Clean HTML report
+*   Tables for numeric, categorical, missing data
+*   Embedded insights
+*   PDF export ready
+    
+
+* * *
+
+### 💬 8\. Chat With Dataset
+
+Ask questions like:
+*   “Which category has the highest sales?”
+*   “What is the average value of feature X?”
+*   “Summarize the dataset in 2 lines.”
+    
+
+LLM responds using:
+
+*   Schema
+*   Sample rows
+*   Data context
+    
+
+* * *
+
+## 📁 Project Structure
+
+| Folder / File | Description |
+| --- | --- |
+| app.py | Streamlit dashboard |
+| agents/ | All agent modules (EDA, ML, LLM, clustering, cleaning) |
+| utils/pdf_exporter.py | HTML → PDF generator |
+| requirements.txt | Python dependencies |
+| .streamlit/config.toml | UI theme config |
+| README.md | Documentation |
+
+* * *
+
+## 🔧 Technologies Used
+
+*   **Python**
+*   **Streamlit**
+*   **Plotly**
+*   **Pandas / NumPy**
+*   **scikit-learn**
+*   **OpenAI / Gemini APIs**
+*   **ReportLab or FPDF**
+*   **Multi-Agent Orchestration Architecture**
+    
+
+* * *
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repo
+    git clone https://github.com/<your-username>/<your-repo>.git
+    cd <your-repo>
+    
+
+### 2️⃣ Create virtual environment
+    python -m venv venv
+    venv\Scripts\activate        # Windows
+    source venv/bin/activate     # macOS/Linux
+    
+
+### 3️⃣ Install dependencies
+    pip install -r requirements.txt
+    
+
+### 4️⃣ Add your API key (OpenAI / Gemini)
+
+Create `.env` file:
+
+    OPENAI_API_KEY=your_key_here
+    
+
+### 5️⃣ Run the app
+
+    streamlit run app.py
+    
+
+* * *
+
+## 📈 Example Outputs
+
+### 🔍 Insights Example
+
+    • The feature “age” shows right-skew distribution.
+    • Missing values detected in column “income”.
+    • Category “High” contributes 42% of total records.
+    • Cluster 2 contains higher-income groups with lower variance.
+    
+
+### 🌀 Clustering Stats Sample
+
+    Cluster 0:
+      mean age: 35.4
+      mean income: $54,200
+      
+    Cluster 1:
+      mean age: 50.1
+      mean income: $82,900
+    
+
+* * *
+
+## 🎯 Future Enhancements
+
+| Feature | Description |
+| --- | --- |
+| 🔮 Auto Feature Engineering | Suggest transformations & encodings |
+| 📊 Smart Chart Selector | AI chooses best chart type automatically |
+| 🧠 Conversational Memory | Multi-turn dialogue with dataset |
+| 🗃️ Multiple Dataset Support | Compare two datasets side-by-side |
+| ⚙️ API Mode | Use as a backend service for other apps |
+| 🌐 OAuth Login | Personalized workspaces |
+
+* * *
+
+## 👨‍💻 Author
+
+Made with ❤️ and 💡 by **Manthan Jadav**
+
+*   🌐 LinkedIn: [https://www.linkedin.com/in/manthanjadav/](https://www.linkedin.com/in/manthanjadav/)
+*   💻 GitHub: [https://github.com/Manthan2110](https://github.com/Manthan2110)
+*   📧 Email: [manthanjadav746@gmail.com](mailto:manthanjadav746@gmail.com)
+    
+
+* * *
+
+## 📜 License
+
+MIT License – feel free to use, modify, and improve.
