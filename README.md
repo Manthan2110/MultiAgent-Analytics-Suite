@@ -1,3 +1,4 @@
+![Thumbnail](https://github.com/user-attachments/assets/4ab375bb-931e-4a82-a018-2cf20dbc1fa0)
 # 🚀 InsightForge AI – Multi-Agent Automated Data Analyst
 
 _“Transform any dataset into insights — instantly.”_ 📊🤖
