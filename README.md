@@ -34,22 +34,28 @@ Upload a CSV → instantly receive:
 ## 🌐 Interface Preview
 
 ### 📊 Dashboard – Automated EDA (Streamlit)
-
 > Interactive distribution plots, boxplots, correlation maps, and time-series.
+<img width="1918" height="1015" alt="image" src="https://github.com/user-attachments/assets/d950128e-12fa-4bc4-b913-a418c4d2d91b" />
+
+<img width="1918" height="1012" alt="image" src="https://github.com/user-attachments/assets/65e8c906-a739-4fad-b1c3-66448ab63e95" />
+
 
 ### 🤖 AI Insights
-
 > LLM-written insights for numeric features, categories, trends, and patterns.
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/482fc0fe-0507-410e-b7f1-dc846704ce64" />
+
+<img width="1918" height="1013" alt="image" src="https://github.com/user-attachments/assets/024cf1fe-0816-4138-8e09-9eb5cd6ebe34" />
 
 ### 🌀 Clustering Visualization
-
 > PCA-based cluster scatter, cluster centroids, and AI interpretations.
+<img width="1125" height="868" alt="image" src="https://github.com/user-attachments/assets/3c497fb7-9efc-4cb7-bdbb-91718475f8ef" />
 
 ### 💬 Chat with Dataset
-
 > Query your dataset using natural language.
+<img width="1907" height="916" alt="image" src="https://github.com/user-attachments/assets/148a5e51-1bf6-4c69-b2ae-f10dce8ce1af" />
 
-_(Add screenshots once deployed)_
+<img width="1902" height="920" alt="image" src="https://github.com/user-attachments/assets/7f467ac3-e355-4fe9-a9a5-4f032589ad21" />
+
 
 * * *
 
